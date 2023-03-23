@@ -1,0 +1,32 @@
+print("EPIC","👊 🖐  ✌","BATTLE")
+print("Select your move R ,P or S")
+
+R = input("R means?\n")
+
+P = input("P means?\n")
+
+S = input("S means?\n")
+
+from getpass import getpass as input
+Player_1 = input("What's your move?\n")
+Player_2 = input("What's your move?😁\n")
+
+if Player_1 == 'R' and Player_2 == 'S':
+  print("Player_1 won😊and Player_2 lost😣")
+elif Player_1 == 'S' and Player_2 == 'R':
+  print("Player_2 won😊and Player_1 lost😣")
+elif Player_1 == 'P' and Player_2 == 'R':
+  print("Player_1 won😊and Player_2 lost😣")
+elif Player_1 == 'R' and Player_2 == 'P':
+  print("Player_2 won😊and Player_1 lost😣")
+elif Player_1 == 'P' and Player_2 == 'S':
+  print("Player_2 won😊and Player_1 lost😣")
+elif Player_1 == 'S' and Player_2 == 'P':
+  print("Player_1 won😊and Player_2 lost😣")
+elif Player_1 == 'R' and Player_2 == 'R':
+  print("It's a draw!!😮")
+elif Player_1 == 'S' and Player_2 == 'S':
+  print("Draw!!!😯")
+else:
+  print("Draw😆")
+  
