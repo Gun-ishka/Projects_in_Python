@@ -1,0 +1,68 @@
+print("Semester Exam Grade Calculator")
+
+Exam_1 = input("Name of exam:\n")
+Score_1 = int(input("What's your score?:\n"))
+print("Score in", Exam_1, "is", Score_1)
+
+Exam_2 = input("Name of exam:\n")
+Score_2 = int(input("What's your score?:\n"))
+print("Score in", Exam_2, "is", Score_2)
+
+Exam_3 = input("Name of exam:\n")
+Score_3 = int(input("What's your score?:\n"))
+print("Score in", Exam_3, "is", Score_3)
+
+Exam_4 = input("Name of exam:\n")
+Score_4 = int(input("What's your score?:\n"))
+print("Score in", Exam_4, "is", Score_4)
+
+Exam_5 = input("Name of exam:\n")
+Score_5 = int(input("What's your score?:\n"))
+print("Score in", Exam_5, "is", Score_5)
+
+Exam_6 = input("Name of exam:\n")
+Score_6 = int(input("What's your score?:\n"))
+print("Score in", Exam_6, "is", Score_6)
+
+Exam_7 = input("Name of exam:\n")
+Score_7 = int(input("What's your score?:\n"))
+print("Score in", Exam_7, "is", Score_7)
+
+Exam_8 = input("Name of exam:\n")
+Score_8 = int(input("What's your score?:\n"))
+print("Score in", Exam_8, "is", Score_8)
+
+Maximum_Possible_Score = int(input("What is maximum possible score?:\n"))
+
+print("Maximum possible score", Maximum_Possible_Score)
+
+Your_Score = Score_1+Score_2+Score_3+Score_4+Score_5+Score_6+Score_7+Score_8
+
+print("Your score is", Your_Score)
+
+Percentage = (Your_Score/Maximum_Possible_Score)*100
+
+print("Your Percentage is", Percentage, "%")
+
+Your_Percentage = int(input("What's your percentage?:\n"))
+
+if Your_Percentage >=90 and Your_Percentage<=100:
+  print("You got grade A+😀")
+
+elif Your_Percentage >=80 and Your_Percentage <=89:
+  print("You got grade A-😊")
+
+elif Your_Percentage >=70 and Your_Percentage <=79:
+  print("You got grade B😚")
+
+elif Your_Percentage >=60 and Your_Percentage <=69:
+  print("You have got grade C😉")
+
+elif Your_Percentage >=50 and Your_Percentage <=59:
+  print("You have got grade D🙂")
+
+elif Your_Percentage >=40 and Your_Percentage <=49:
+  print("You have got grade U😐")
+
+else:
+  print("Better luck next time🙄")
